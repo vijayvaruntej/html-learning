@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    font-family: "Noto Serif Telugu", serif;
+}
+header.header-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color:aqua;
+}
+.Logo{
+    height: 25vh;
+    width: 25vh;
+}
+
+.nav-bar- ul{
+    list-style-type: none;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-left: 2em;
+    color:black;
+    cursor: pointer;
+    padding-bottom: 1%;
+    border: 2px solid black;
+}
+.nav-bar ul li:hover{
+    color:brown;
+    border-bottom: 2px solid brown;
+}
+.button{
+    cursor: pointer;
+}
+.button:hover{
+    color: red;
+}
