@@ -24,7 +24,7 @@ header.header-section{
     color:black;
     cursor: pointer;
     padding-bottom: 1%;
-    border: 2px solid black;
+    
 }
 .nav-bar ul li:hover{
     color:brown;
@@ -32,6 +32,9 @@ header.header-section{
 }
 .button{
     cursor: pointer;
+    background-color: black;
+    color:aqua;
+    border: 1px solid gold;
 }
 .button:hover{
     color: red;
