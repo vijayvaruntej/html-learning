@@ -7,6 +7,7 @@ body{
 img.Logo{
     height: 10%;
     width: 10%;
+    border-radius: 5px;
 }
 .main-section{
     background-image: url(../ImagesFolder/catering_image_bg.jpg);
@@ -105,5 +106,24 @@ a.book-table-link:hover{
     to{
         transform: rotate(360deg);
     }
+}
 
+/* media quires */
+@media (min-width: 320px) and (max-width:576px){
+    img.Logo {
+    height: 20vp;
+    width: 20vp;
+    border-radius: 5px;
+}
+nav.nav-bar-section ul {
+    list-style-type: none;
+    padding: none;
+}
+.nav-bar-section ul li {
+    display: block;
+    margin-left: 2em;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 1%;
+}
 }
